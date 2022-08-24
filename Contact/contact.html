@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head :: start -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>SDC</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../Homeres.css" />
+    <link rel="stylesheet" href="./contact.css">
+    <!-- <link rel="stylesheet" href="./contactres.css"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for font awesome linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- for responsive hamburger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+  <!-- head :: end -->
+
+  <!-- body :: start -->
+  <body>
+
+    <main id="main">
+      <!-- nav :: start -->
+      <header>
+         
+        <input type="checkbox" id="check" >   
+        <a href="#" class="logo">SDC</a>
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="hlist">
+          <li><a href="../index.html" class="active" onclick="toggle()">Home</a></li>
+          <li><a href="../YearPlan/yearPlan.html" onclick="toggle()">Year Plan</a></li>
+          <li><a href="../History/History.html" onclick="toggle()">History</a></li>
+          <li><a href="../OurTeam/ourTeam.html" onclick="toggle()">Our Team</a></li>
+          <li><a href="../Contact/contact.html" onclick="toggle()">Contact</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+
+      </header>
+      <!-- nav :: end -->
+    </main>
+
+    <!-- contact section :: start -->
+    <section class="contactForm">
+        <div id="wrap">
+            <h1 id="heading">Send a FeedBack</h1>
+            <br><br><br>
+            <div id="form-wrap">
+                <form action="">
+                    <label for="name">Your Name : </label>
+                    <input type="text" id="name" name="name" placeholder="Enter Name">
+    
+                    <label for="email">Your Email : </label>
+                    <input type="text" id="email" name="email" placeholder="Enter Email">
+    
+                    <label for="message">Your Message : </label>
+                    <textarea name="message" id="message" value="Your Message"></textarea>
+    
+                    <button type="submit">SEND</button>
+    
+    
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section :: end -->
+
+    <footer style="width: 100%;">
+        <div class="footer-content" style="width: 100%;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.826398549027!2d77.6048386148459!3d11.274168452891486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96d7810fe32d5%3A0x85cf49c5b26fb72e!2sKongu%20Engineering%20College!5e0!3m2!1sen!2sin!4v1660152337362!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <ul class="socials">
+            <li><a href="https://www.facebook.com/kongusdc/"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://twitter.com/sdc_kec"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCIBpmBcEAg3ETYz-uBH8d5g"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/selfdevelopmentclub_kec/ "><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+          </ul>
+          <div class="footer-bottom" style="width: 100%;">
+            <P>copyright &copy; 2022 Self Development Club. All rights Reserved</P>
+            <p>Designed by</p>
+          <p>SDC WebDevelopment Team <strong>Star Techies</strong></p>
+          </div>
+        </div>
+      </footer>
+
+      <footer style="width: 100%;">
+        <div class="footer-content">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.826398549027!2d77.6048386148459!3d11.274168452891486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96d7810fe32d5%3A0x85cf49c5b26fb72e!2sKongu%20Engineering%20College!5e0!3m2!1sen!2sin!4v1660152337362!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <ul class="socials">
+            <li><a href="https://www.facebook.com/kongusdc/"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://twitter.com/sdc_kec"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCIBpmBcEAg3ETYz-uBH8d5g"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/selfdevelopmentclub_kec/ "><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+          </ul>
+          <div class="footer-bottom">
+            <P>copyright &copy; 2022 Self Development Club. All rights Reserved</P>
+            <p>Designed by</p>
+          <p>SDC WebDevelopment Team <strong>Star Techies</strong></p>
+          </div>
+        </div>
+      </footer>
+
+      <script type="text/javascript">
+        function toggle() {
+          var header = document.getElementById("header");
+          header.classList.toggle("active");
+        }
+      </script>
+  
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+  
+      <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        });
+      </script>
+    </body>
+</html>
+    
